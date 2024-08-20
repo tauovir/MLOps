@@ -1,0 +1,13 @@
+{
+  "mount_location" : "/mnt/preprod_mlops/",
+  "schema_name" : "mlops_db_preprod",
+  "diabetes_cls_model" : {
+    "inference_table" : "diabetes_cls_model",
+    "log_model_name" : "diabetes_cls_model_log",
+    "register_model_name" : "diabetes_cls_model_reg",
+    "register_model_stage" : "Staging",
+    "exp_name" : "/Users/<email>/experiments/diabetes_cls_exp",
+    "artifact_location" : "/mnt/mlops/preprod_mlops/artifact/"
+
+  }
+}
